@@ -191,3 +191,11 @@ plt.show()
 # 9. 顯示訓練時間與 baseline 結果
 print(f"\nTraining time: {train_time:.2f} seconds")
 print(f"[Baseline] Test Loss: {test_loss:.4f}, Test Accuracy: {test_acc:.4f}")
+
+"""
+[Baseline] Test Loss: 1.6063, Test Accuracy: 0.6603
+[Flip‐check] threshold=0.60 --> Test Accuracy: 0.6693
+[Flip‐check] threshold=0.70 --> Test Accuracy: 0.6700
+[Flip‐check] threshold=0.80 --> Test Accuracy: 0.6705
+[Flip‐check] threshold=0.90 --> Test Accuracy: 0.6706
+"""
